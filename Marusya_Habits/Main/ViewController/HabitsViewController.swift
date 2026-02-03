@@ -72,7 +72,7 @@ class HabitsViewController: UIViewController {
     }
     
     @objc private func createButtonTapped() {
-        let createVC = UINavigationController(rootViewController: CreateHabitVC())
+        let createVC = UINavigationController(rootViewController: EditHabitViewController())
         createVC.modalPresentationStyle = .fullScreen
         createVC.viewControllers.first?.title = "Создать"
         present(createVC, animated: true)

@@ -6,30 +6,39 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		59A4F7A42F320B6700FD4FCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F78C2F320B6700FD4FCC /* AppDelegate.swift */; };
+		59A4F7A52F320B6700FD4FCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F78D2F320B6700FD4FCC /* SceneDelegate.swift */; };
+		59A4F7A62F320B6700FD4FCC /* EditHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F78F2F320B6700FD4FCC /* EditHabitViewController.swift */; };
+		59A4F7A92F320B6700FD4FCC /* UIView.addSubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F7942F320B6700FD4FCC /* UIView.addSubViews.swift */; };
+		59A4F7AA2F320B6700FD4FCC /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F7962F320B6700FD4FCC /* InfoViewController.swift */; };
+		59A4F7AB2F320B6700FD4FCC /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F7982F320B6700FD4FCC /* LaunchScreenViewController.swift */; };
+		59A4F7AF2F320B6700FD4FCC /* HabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F7A12F320B6700FD4FCC /* HabitsStore.swift */; };
+		59A4F7B02F320B6700FD4FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A4F79E2F320B6700FD4FCC /* Assets.xcassets */; };
+		59A4F7B82F320C6C00FD4FCC /* HabitDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F7B62F320C6C00FD4FCC /* HabitDetailsTableViewCell.swift */; };
+		59A4F7BB2F320C7F00FD4FCC /* HabitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F7B92F320C7F00FD4FCC /* HabitDetailsViewController.swift */; };
+		59A4F7BE2F320C8300FD4FCC /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F7BC2F320C8300FD4FCC /* HabitsViewController.swift */; };
+		59A4F7C22F320C8600FD4FCC /* HabitsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F7BF2F320C8600FD4FCC /* HabitsCollectionViewCell.swift */; };
+		59A4F7C32F320C8600FD4FCC /* HabitsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F7C02F320C8600FD4FCC /* HabitsHeaderView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		590C83372F143DB40040C10E /* Marusya_Habits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marusya_Habits.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A4F78C2F320B6700FD4FCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59A4F78D2F320B6700FD4FCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59A4F78F2F320B6700FD4FCC /* EditHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHabitViewController.swift; sourceTree = "<group>"; };
+		59A4F7942F320B6700FD4FCC /* UIView.addSubViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.addSubViews.swift; sourceTree = "<group>"; };
+		59A4F7962F320B6700FD4FCC /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		59A4F7982F320B6700FD4FCC /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		59A4F79E2F320B6700FD4FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59A4F79F2F320B6700FD4FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A4F7A12F320B6700FD4FCC /* HabitsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsStore.swift; sourceTree = "<group>"; };
+		59A4F7B62F320C6C00FD4FCC /* HabitDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		59A4F7B92F320C7F00FD4FCC /* HabitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailsViewController.swift; sourceTree = "<group>"; };
+		59A4F7BC2F320C8300FD4FCC /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
+		59A4F7BF2F320C8600FD4FCC /* HabitsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsCollectionViewCell.swift; sourceTree = "<group>"; };
+		59A4F7C02F320C8600FD4FCC /* HabitsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		590C83492F143DB50040C10E /* Exceptions for "Marusya_Habits" folder in "Marusya_Habits" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Resources/Info.plist,
-			);
-			target = 590C83362F143DB40040C10E /* Marusya_Habits */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		590C83392F143DB40040C10E /* Marusya_Habits */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				590C83492F143DB50040C10E /* Exceptions for "Marusya_Habits" folder in "Marusya_Habits" target */,
-			);
-			path = Marusya_Habits;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		590C83342F143DB40040C10E /* Frameworks */ = {
@@ -45,7 +54,7 @@
 		590C832E2F143DB40040C10E = {
 			isa = PBXGroup;
 			children = (
-				590C83392F143DB40040C10E /* Marusya_Habits */,
+				59A4F7A32F320B6700FD4FCC /* Marusya_Habits */,
 				590C83382F143DB40040C10E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +65,131 @@
 				590C83372F143DB40040C10E /* Marusya_Habits.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		59A4F78E2F320B6700FD4FCC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F78C2F320B6700FD4FCC /* AppDelegate.swift */,
+				59A4F78D2F320B6700FD4FCC /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		59A4F7902F320B6700FD4FCC /* CreateEdit */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F78F2F320B6700FD4FCC /* EditHabitViewController.swift */,
+			);
+			path = CreateEdit;
+			sourceTree = "<group>";
+		};
+		59A4F7932F320B6700FD4FCC /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F7BA2F320C7F00FD4FCC /* ViewController */,
+				59A4F7B72F320C6C00FD4FCC /* Views */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		59A4F7952F320B6700FD4FCC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F7942F320B6700FD4FCC /* UIView.addSubViews.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		59A4F7972F320B6700FD4FCC /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F7962F320B6700FD4FCC /* InfoViewController.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		59A4F7992F320B6700FD4FCC /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F7982F320B6700FD4FCC /* LaunchScreenViewController.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		59A4F79D2F320B6700FD4FCC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F7BD2F320C8300FD4FCC /* ViewController */,
+				59A4F7C12F320C8600FD4FCC /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		59A4F7A02F320B6700FD4FCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F79E2F320B6700FD4FCC /* Assets.xcassets */,
+				59A4F79F2F320B6700FD4FCC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		59A4F7A22F320B6700FD4FCC /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F7A12F320B6700FD4FCC /* HabitsStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		59A4F7A32F320B6700FD4FCC /* Marusya_Habits */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F78E2F320B6700FD4FCC /* App */,
+				59A4F7952F320B6700FD4FCC /* Extensions */,
+				59A4F7A02F320B6700FD4FCC /* Resources */,
+				59A4F7902F320B6700FD4FCC /* CreateEdit */,
+				59A4F7932F320B6700FD4FCC /* Details */,
+				59A4F7972F320B6700FD4FCC /* Info */,
+				59A4F7992F320B6700FD4FCC /* LaunchScreen */,
+				59A4F79D2F320B6700FD4FCC /* Main */,
+				59A4F7A22F320B6700FD4FCC /* Store */,
+			);
+			path = Marusya_Habits;
+			sourceTree = "<group>";
+		};
+		59A4F7B72F320C6C00FD4FCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F7B62F320C6C00FD4FCC /* HabitDetailsTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		59A4F7BA2F320C7F00FD4FCC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F7B92F320C7F00FD4FCC /* HabitDetailsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		59A4F7BD2F320C8300FD4FCC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F7BC2F320C8300FD4FCC /* HabitsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		59A4F7C12F320C8600FD4FCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59A4F7BF2F320C8600FD4FCC /* HabitsCollectionViewCell.swift */,
+				59A4F7C02F320C8600FD4FCC /* HabitsHeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +206,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				590C83392F143DB40040C10E /* Marusya_Habits */,
 			);
 			name = Marusya_Habits;
 			packageProductDependencies = (
@@ -122,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A4F7B02F320B6700FD4FCC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +264,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A4F7A42F320B6700FD4FCC /* AppDelegate.swift in Sources */,
+				59A4F7A52F320B6700FD4FCC /* SceneDelegate.swift in Sources */,
+				59A4F7A62F320B6700FD4FCC /* EditHabitViewController.swift in Sources */,
+				59A4F7A92F320B6700FD4FCC /* UIView.addSubViews.swift in Sources */,
+				59A4F7BB2F320C7F00FD4FCC /* HabitDetailsViewController.swift in Sources */,
+				59A4F7AA2F320B6700FD4FCC /* InfoViewController.swift in Sources */,
+				59A4F7AB2F320B6700FD4FCC /* LaunchScreenViewController.swift in Sources */,
+				59A4F7BE2F320C8300FD4FCC /* HabitsViewController.swift in Sources */,
+				59A4F7AF2F320B6700FD4FCC /* HabitsStore.swift in Sources */,
+				59A4F7B82F320C6C00FD4FCC /* HabitDetailsTableViewCell.swift in Sources */,
+				59A4F7C22F320C8600FD4FCC /* HabitsCollectionViewCell.swift in Sources */,
+				59A4F7C32F320C8600FD4FCC /* HabitsHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

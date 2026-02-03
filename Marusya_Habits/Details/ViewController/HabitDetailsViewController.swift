@@ -73,7 +73,7 @@ class HabitDetailsViewController: UIViewController {
     }
     
     @objc private func editButtonTapped() {
-        let createHabitVC = CreateHabitVC()
+        let createHabitVC = EditHabitViewController()
         if let habit = habit {
             createHabitVC.state = .edit(habit: habit, index: index)
         }

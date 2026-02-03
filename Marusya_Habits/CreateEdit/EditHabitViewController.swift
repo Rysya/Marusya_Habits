@@ -1,6 +1,6 @@
 import UIKit
 
-class CreateHabitVC: UIViewController {
+class EditHabitViewController: UIViewController {
     
     enum State {
         case edit(habit: Habit, index: Int)
